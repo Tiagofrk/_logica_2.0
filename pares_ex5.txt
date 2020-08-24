@@ -1,0 +1,14 @@
+Algoritmo "pares"
+
+Var
+
+   cont: inteiro
+Inicio
+
+      cont<- 0
+             enquanto cont< 101 faca
+                      escreva (cont)
+                      cont<- cont + 2
+             fimenquanto
+
+Fimalgoritmo

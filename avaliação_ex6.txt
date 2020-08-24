@@ -1,0 +1,45 @@
+Algoritmo "avaliaçao"
+
+Var
+
+   n1, n2, n3, n4, f: inteiro
+   media : real
+
+Inicio
+
+      escreva("Digite a primeira nota: ")
+      leia (n1)
+      escreva("Digite a segunda nota: ")
+      leia (n2)
+      escreva("Digite a terceira nota: ")
+      leia (n3)
+      escreva("Digite a quarta nota: ")
+      leia (n4)
+      escreva ("Informe o número de faltas: ")
+      leia (f)
+      
+      se (f >= 10) entao
+         escreva ("Reprovado por falta !")
+      fimse
+      
+      media <- (n1 + n2 + n3+ n4)/ 4
+
+      escreval("Sua média foi de ",media)
+
+      se (media >=7) entao
+         escreva ("Aprovado")
+      fimse
+      
+      se (media = 5) entao
+         escreva ("Recuperção")
+      fimse
+      
+      se (media = 6)entao
+         escreva ("Recuperação")
+      fimse
+      
+      se (media <5) entao
+         escreva ("Reprovado")
+      fimse
+      
+Fimalgoritmo

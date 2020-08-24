@@ -1,0 +1,15 @@
+Algoritmo "dias que uma pessoa viveu"
+
+Var
+
+   ano, atual, dias: inteiro
+Inicio
+
+      escreva("Qual ano vc nasceu: ")
+      leia(ano)
+      escreva("Digite o ano atual: ")
+      leia(atual)
+      
+      dias <- (atual - ano) * 360
+      escreva ("Voce viveu ",dias, " dias" )
+Fimalgoritmo

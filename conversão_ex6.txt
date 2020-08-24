@@ -1,0 +1,24 @@
+Algoritmo "conversão"
+
+Var
+
+ velo_km, velo_ms: real
+ temp : real
+
+Inicio
+
+      escreva("Digite a velocidade em km/h: ")
+      leia(velo_km)
+
+      velo_ms <- velo_km / 3.600
+      escreval ("O valor em m/s é:", velo_ms)
+
+      temp <- 434.400 / velo_km
+
+      escreva ("O tempo de São Paulo para o Rio de janeiro é de: ",temp:4:2, " h/m")
+
+
+
+
+
+Fimalgoritmo

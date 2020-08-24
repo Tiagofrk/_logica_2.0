@@ -1,0 +1,23 @@
+Algoritmo "2 vetores"
+
+Var
+
+   nota1 : vetor [0..3] de inteiro
+   nota2 : vetor [0..3] de inteiro
+   cont : inteiro
+
+Inicio
+
+      para cont de 0 ate 3 faca
+      escreva ("Digite as notas: ")
+      leia (nota1 [cont])
+
+      nota2[cont] <- nota1 [cont]
+      
+      fimpara
+
+      para cont de 0 ate 3 faca
+      escreval("vetor 1 = ", nota1[cont], " - ", "vetor 2 = ", nota2[cont])
+      fimpara
+
+Fimalgoritmo

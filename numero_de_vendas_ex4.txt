@@ -1,0 +1,24 @@
+Algoritmo "numero de vendas"
+
+Var
+
+   vendas, total : inteiro
+   cont : inteiro
+
+Inicio
+      vendas <- 2000
+      escreval ("A meta de 10 funcionarios é de R$ 2,000")
+
+      para cont de 1 ate 10 faca
+      escreval("Digite o quanto vc vendeu, apenas numero:")
+      escreva("R$ ")
+      leia (total)
+      
+      se (total > vendas) entao
+         escreval ("Ual, voce ganhou !!!!")
+      senao
+           escreval ("Não ganhou, se esforce mais na proxima !")
+      fimse
+      fimpara
+
+Fimalgoritmo

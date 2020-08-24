@@ -1,0 +1,25 @@
+Algoritmo "aposentadoria"
+
+Var
+
+   nome: caractere
+   idade, aposen: inteiro
+
+
+Inicio
+
+      escreva("Qual seu nome ? : ")
+      leia(nome)
+      escreva("Informe sua idade agora : ")
+      leia(idade)
+      
+
+      se (idade <18) entao
+         escreva("Voce ainda é muito novo")
+
+      senao (idade >=18) entao
+            aposen<- 65 - idade
+            escreva(nome, ", falta", aposen, " anos para voce se aposentar")
+      fimse
+
+Fimalgoritmo

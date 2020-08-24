@@ -1,0 +1,13 @@
+Algoritmo "1000 Proa 4.0"
+
+Var
+
+ Bart : inteiro
+Inicio
+      Bart <- 0
+      repita Bart <- Bart + 1 faca
+             escreval ("Proa 4.0")
+            ate (Bart =1000)
+
+      
+Fimalgoritmo

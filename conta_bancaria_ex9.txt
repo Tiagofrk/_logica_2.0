@@ -1,0 +1,48 @@
+Algoritmo "conta bancaria"
+
+Var
+
+   num :inteiro
+   saldo, saque, retirada:real
+   opc_cliente :caractere
+
+Inicio
+
+      escreval("Informe seu número da conta: ")
+      leia(num)
+      
+      se(num <> 45217) entao
+             escreval("Sua senha está incorreta!")
+      fimse
+
+      se(num = 45217) entao
+      saldo <-4000
+                escreval("Seu saldo é de R$",saldo)
+      fimse
+
+      se (num = 45217) entao
+      escreval("Quer fazer um saque ou retirada: ")
+      leia(opc_cliente)
+
+      fimse
+      
+      se(opc_cliente = "saque") entao
+         escreval("Qual o valor de saque: ")
+         leia(saque)
+         saldo <- saldo + saque
+         escreval ("Seu saldo atual é de R$ ",saldo)
+      fimse
+
+      se (opc_cliente = "retirada") entao
+            escreval("Qual o valor da retirada: ")
+            leia(retirada)
+            saldo <- saldo - retirada
+            escreval ("Seu saldo atual é de R$ ",saldo)
+      fimse
+
+      se (saldo <=0000)entao
+      escreval("Conta estourada!")
+      
+      fimse
+
+Fimalgoritmo

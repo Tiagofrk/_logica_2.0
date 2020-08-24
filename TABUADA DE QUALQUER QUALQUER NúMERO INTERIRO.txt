@@ -1,0 +1,21 @@
+Algoritmo "Tabuada de qualquer qualquer número interiro"
+
+Var
+   numero, contador : inteiro
+
+Inicio
+
+     escreva("Digite um numero inteiro: ")
+     leia(numero)
+     
+     contador <- 1
+     enquanto (contador <11) faca
+     
+     escreval(numero," x",contador," = ",numero * contador)
+
+     contador <- contador + 1
+
+     fimenquanto
+
+
+Fimalgoritmo

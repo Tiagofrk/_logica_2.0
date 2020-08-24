@@ -1,0 +1,19 @@
+Algoritmo "par ou impar"
+
+Var
+
+   numero: inteiro    //armazena o numero digitado
+
+Inicio
+
+      escreva("Digite um numero: ")
+      leia(numero)
+      
+      se(numero % 2) = 0 entao        //aqui ele analiza o resto, da divisão do numero por 2
+                escreva("O", numero, " ele é par")
+      senao (numero % 2) = 1 entao    //aqui ele analiza o resto, da divisão do numero por 2
+            escreva("O", numero, " ele é impar")
+      fimse
+
+
+Fimalgoritmo

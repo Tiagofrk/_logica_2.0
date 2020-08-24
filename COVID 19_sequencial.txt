@@ -1,0 +1,40 @@
+Algoritmo "Covid 19"
+
+Var
+
+   pais : vetor [1..15] de caractere
+   casos, morte : vetor[1..15,1..2]de inteiro
+   posc, num : inteiro
+   posc_pais : caractere
+
+Inicio
+
+   escreval ("Paises mais afetados")
+
+   para posc de 1 ate 15 faca
+      escreval("Digite o nome do país:")
+      leia (pais[posc])
+      escreval ("Informe o número de casos: ")
+      leia (casos[posc])
+      escreval ("Informe o número de mortes: ")
+      leia (morte [posc])
+
+   fimpara
+
+	escreva("Digite o pais que você quer encontrar: ")
+   	leia(posc_pais)
+ 	
+	posc <- 1
+
+   enquanto (posc < 15) e (pais[posc] <> posc_pais) faca
+            posc <- posc + 1
+   fimenquanto
+
+   se posc_pais = pais[posc] entao
+      escreva("País encontrado! O numero de casos é: ", casos[posc], " e o número de mortes é de: ",morte [posc])
+   senao
+
+        escreva("País não foi encontrado!")
+   fimse
+
+Fimalgoritmo

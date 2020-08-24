@@ -1,0 +1,39 @@
+Algoritmo "Data de nascimento"
+
+Var
+    ano_nasc1, ano_atual1, ano_nasc2, ano_atual2, idade1, idade2: inteiro
+    nome1, nome2: caractere
+
+Inicio
+      escreva("Digite seu nome : ")
+      leia(nome1)
+      escreva("Digite o ano atual : ")
+      leia(ano_atual1)
+      escreva("Digite seu ano de nascimneto : ")
+      leia(ano_nasc1)
+      escreva("Digite seu nome: ")
+      leia(nome2)
+      escreva("Digite o ano atual : ")
+      leia(ano_atual2)
+      escreva("Digite seu ano de nascimneto : ")
+      leia(ano_nasc2)
+
+       idade1 <- ano_atual1 - ano_nasc1
+
+      escreval(nome1, " tem ",idade1, " anos")
+      
+      idade2 <- ano_atual2 - ano_nasc2
+      
+      escreval(nome2, " tem ",idade2, " anos")
+      
+       se(ano_nasc1 = ano_nasc2) entao
+                 escreva(nome1, " tem a mesma idade que ", nome2)
+     fimse
+ 
+       se(idade1> idade2) entao
+         escreval (nome1, " é mais velho/a que ",nome2)
+      senao(idade2> idade1)entao
+                    escreval(nome2, " é mais velho/a que ",nome1)
+      fimse
+
+Fimalgoritmo

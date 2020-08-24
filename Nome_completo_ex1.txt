@@ -1,0 +1,16 @@
+Algoritmo "conctenação do nome"
+
+Var
+    pri_nome, seg_nome, completo : caractere
+
+Inicio
+      escreva("Digite seu primeiro nome: ")
+      leia(pri_nome)
+      escreva("Digite o segundo nome: ")
+      leia(seg_nome)
+      
+      completo <- pri_nome+" "+seg_nome
+      
+      escreva("Nome completo : ", completo)
+
+Fimalgoritmo

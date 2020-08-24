@@ -1,0 +1,46 @@
+Algoritmo "ordenação"
+
+Var
+   vet1: vetor [1..5] de inteiro
+   vet2: vetor [6..10] de inteiro
+   vet3: vetor [1..10] de inteiro
+   cont, ordem, auxiliar : inteiro
+   
+
+Inicio
+
+      para cont de 1 ate 5 faca
+           escreva("Digite as notas do primeiro aluno : ")
+           leia(vet1[cont])
+           cont <- cont + 5
+           escreva("Digite as notas do segundo aluno : ")
+           leia(vet2[cont])
+      fimpara
+ cont <- 1
+      enquanto cont <= 5  faca
+               vet3[cont] <- vet1[cont]
+               cont <- cont + 1
+      fimenquanto
+
+       cont <- 6
+      enquanto cont <= 10  faca
+               vet3[cont] <- vet2[cont]
+               cont <- cont + 1
+      fimenquanto
+      cont <- 1
+
+      para cont de 1 ate 10 faca
+           para ordem de cont ate 10 faca
+                se vet3[ordem] < vet3 [cont] entao
+                   auxiliar <- vet3[ordem]
+                   vet3[ordem] <- vet3[cont]
+                   vet3[cont] <- auxiliar
+                fimse
+           fimpara
+      fimpara
+                
+      para cont de 1 ate 10 faca
+           escreval("Vetor3 = ", vet3[cont])
+      fimpara
+
+fimalgoritmo

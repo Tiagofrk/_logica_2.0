@@ -1,0 +1,16 @@
+Algoritmo "1000 Proa 4.0"
+
+Var
+
+ Bart : inteiro
+ frase: caractere
+Inicio
+
+      escreva("Digite uma frase: ")
+      leia(frase)
+
+      para Bart de 1000 ate 1 passo -1 faca
+           escreval (frase )
+      fimpara
+
+Fimalgoritmo

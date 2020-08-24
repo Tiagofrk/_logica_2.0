@@ -1,0 +1,16 @@
+Algoritmo "ordem alterada"
+
+Var
+
+   NumA, NumB: inteiro
+
+Inicio
+
+      escreva("Escreva o primeiro número: ")
+      leia(NumA)
+      escreva("Ecreva o segundo número: ")
+      leia(NumB)
+      
+      escreval (Numb,",",NumA)
+      
+Fimalgoritmo

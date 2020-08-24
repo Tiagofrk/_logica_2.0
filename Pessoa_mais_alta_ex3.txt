@@ -1,0 +1,23 @@
+Algoritmo "pessoa mais alta"
+
+Var
+   nome1, nome2: caractere
+   altura1,altura2: real
+
+Inicio
+      escreva("Digite o primeiro nome: ")
+      leia(nome1)
+      escreva("Digite sua altura: ")
+      leia(altura1)
+      escreva("Digite o segundo nome: ")
+      leia(nome2)
+      escreva("Digite sua altura: ")
+      leia(altura2)
+      
+      se (altura1 > altura2) entao
+         escreva("O/A ", nome1, " é maior, tendo", altura1,"m")
+      senao(altura2 >altura1) entao
+                    escreva("O/A ", nome2, " é maior, tendo", altura2,"m")
+      fimse
+      
+Fimalgoritmo

@@ -1,0 +1,19 @@
+Algoritmo "maior e menor"
+
+Var
+   n1, n2 : Real
+
+Inicio
+      escreva("Digite um numero: ")
+      leia(n1)
+      escreva("Digite o segundo numero: ")
+      leia(n2)
+      
+      se (n1 > n2) entao
+         escreva ("O primeiro numero",n1, " é maior que", n2)
+      senao
+           escreva("O segundo numero",n2 , " é maior que", n1)
+      fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,13 @@
+Algoritmo "1000 Proa 4.0"
+
+Var
+
+ Bart : inteiro
+Inicio
+      Bart <- 0
+      enquanto (Bart < 1000) faca
+               escreval ("Proa 4.0")
+               Bart <- Bart + 1
+      fimenquanto
+      
+Fimalgoritmo

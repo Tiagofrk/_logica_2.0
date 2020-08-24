@@ -1,0 +1,19 @@
+Algoritmo "temperatura ambiente"
+
+Var
+
+   temp_amb: real
+
+Inicio
+      escreva("Digite a temperatura ambiente: ")
+      leia(temp_amb)
+      
+      se (temp_amb >= 25 ) entao
+         escreva("Está muito quente!")
+      senao(temp_amb <25 ) entao
+                     escreva("Está aagradável!")
+
+      fimse
+      
+
+Fimalgoritmo

@@ -1,0 +1,19 @@
+Algoritmo "media de 3 provas"
+
+Var
+
+   n1,n2,n3, media: real
+
+Inicio
+
+      escreva("Digite a primeira nota de 0 a 2: ")
+      leia(n1)
+      escreva("Digite a segunda nota de 0 a 3: ")
+      leia(n2)
+      escreva("Digite a terceira nota de 0 a 5: ")
+      leia(n3)
+      
+      media<- (n1 + n2 + n3)/ 3
+      escreval("A média final do aluno foi de", media)
+
+Fimalgoritmo
